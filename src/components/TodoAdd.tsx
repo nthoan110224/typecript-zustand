@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Button, Input, Grid } from "@chakra-ui/react";
 
-import useStore from "../store";
+import {useStore} from "../store";
 
 function TodoAdd() {
   const store = useStore((state) => state);

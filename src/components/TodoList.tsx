@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Button, Input, Flex, Checkbox, Heading } from "@chakra-ui/react";
 
-import useStore from "../store";
+import {useStore} from "../store";
 
 function TodoListItems() {
   const store = useStore((state) => state);

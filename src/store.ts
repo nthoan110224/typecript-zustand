@@ -42,7 +42,7 @@ type Store = {
   setNewTodo: (newTodo: string) => void;
 };
 
-const useStore = create<Store>(
+export const useStore = create<Store>(
   (set): Store => ({
     todos: [],
     newTodo: "",

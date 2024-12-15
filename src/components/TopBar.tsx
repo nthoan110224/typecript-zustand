@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Button, Grid } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
-import useStore, { Todo } from "../store";
+import {useStore, Todo} from "../store";
 
 function TopBar() {
   const store = useStore();
